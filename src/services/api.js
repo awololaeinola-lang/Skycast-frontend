@@ -7,4 +7,5 @@ const API = axios.create({
 
 export const getWeather = async (city) => {
   return API.get(`/weather?city=${city}`);
-};
+}; 
+// Redeploy trigger
