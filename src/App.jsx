@@ -21,7 +21,7 @@ function App() {
   const [darkMode, setDarkMode] = useState(false);
   const [error, setError] = useState("");
 
-  const API_URL = "http://localhost:5000/api/weather";
+  const API_URL = "https://skycast-backend-1.onrender.com/api";
 
   // 🌍 Fetch by city
   const fetchWeather = async (cityName) => {
